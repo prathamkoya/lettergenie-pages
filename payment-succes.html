@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Sent</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div class="bg-white rounded-lg p-8 shadow-lg text-center">
+        <div class="w-24 h-24 mx-auto mb-4">
+            <iframe src="https://lottie.host/embed/31296f81-fdac-4d20-b408-4a2a024ca91d/v73J04Qdmg.json" width="96" height="96"></iframe>
+        </div>
+        <h1 class="text-2xl font-bold mb-2">Payment Recieved</h1>
+        <p class="text-gray-600 mb-4">Thank you for subscribing with LetterGenie. You can see your increased limit in your popup screen in less than a minute </p>
+        <button onclick="closeWindow()" class="bg-purple-600 text-white py-2 px-4 rounded-lg hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-50">Close Window</button>
+    </div>
+
+    <script>
+        function closeWindow() {
+            window.close();
+        }
+    </script>
+</body>
+</html>
